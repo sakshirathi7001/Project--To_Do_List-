@@ -1,5 +1,3 @@
-# Simple To-Do List Application
-
 tasks = []
 
 def show_menu():
@@ -51,7 +49,6 @@ def load_tasks():
     except FileNotFoundError:
         print("No saved file found.")
 
-# Main program loop
 while True:
     show_menu()
     choice = input("Enter your choice: ")
